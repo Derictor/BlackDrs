@@ -1,0 +1,58 @@
+<DATABASE_DES_LOCALIZATION-NO_HSH>
+  <LOC_LIBRARY-BD_PT Language="Portuguese">
+    <Entry Key="DES_BD_CLASSE" Val="Sandman — Senhor dos Sonhos" />
+    <Entry Key="DES_BD_CLASSE_DES" Val="Black Drs, o Sandman, lê presságios nos sonhos e usa areia para atrasar inimigos. Sua magia favorece os rituais." />
+    <Entry Key="DES_BD_ARIA" Val="Areia dos Sonhos" />
+    <Entry Key="DES_BD_ARIA_DES" Val="Melhora a fabricação." />
+    <Entry Key="DES_BD_SONO" Val="Sono Profundo" />
+    <Entry Key="DES_BD_SONO_DES" Val="Atrasa a próxima ação de um inimigo em desafios espirituais." />
+    <Entry Key="DES_BD_HIPNOSE" Val="Hipnose" />
+    <Entry Key="DES_BD_HIPNOSE_DES" Val="Atrasa a ação inimiga em desafios mentais." />
+    <Entry Key="DES_BD_DESTINO" Val="Destino" />
+    <Entry Key="DES_BD_DESTINO_DES" Val="Aumenta Destino e Sorte." />
+    <Entry Key="DES_BD_FE" Val="Fé" />
+    <Entry Key="DES_BD_FE_DES" Val="Melhora o desempenho em rituais." />
+    <Entry Key="DES_BD_SABEDORIA" Val="Sabedoria" />
+    <Entry Key="DES_BD_SABEDORIA_DES" Val="Aumenta a Sabedoria." />
+    <Entry Key="DES_BD_ENCANTAR" Val="Encantar" />
+    <Entry Key="DES_BD_ENCANTAR_DES" Val="Aumenta o Misticismo." />
+    <Entry Key="DES_BD_BELEZA" Val="Beleza" />
+    <Entry Key="DES_BD_BELEZA_DES" Val="Aumenta a Astúcia." />
+    <Entry Key="DES_BD_MATRIX" Val="Balas do Matrix" />
+    <Entry Key="DES_BD_MATRIX_DES" Val="Ataque à distância com projéteis de areia que envenenam o alvo." />
+    <Entry Key="DES_BD_SANDMAN" Val="Sandman" />
+    <Entry Key="DES_BD_SANDMAN_DES" Val="Espírito de areia que atrasa inimigos em desafios espirituais." />
+    <Entry Key="DES_BD_MORPHEUS" Val="Morfeu" />
+    <Entry Key="DES_BD_MORPHEUS_DES" Val="Deus dos Sonhos. Mestre de misticismo e rituais. Controla o reino onírico." />
+    <Entry Key="DES_BD_HYPNOS" Val="Hipnos" />
+    <Entry Key="DES_BD_HYPNOS_DES" Val="Deus do Sono. Mestre de perspicácia e percepção. Induz sono profundo." />
+    <Entry Key="DES_BD_ONEIROS" Val="Oneiros" />
+    <Entry Key="DES_BD_ONEIROS_DES" Val="Espírito dos Sonhos. Mestre de inteligência e sabedoria. Cria sonhos lúcidos." />
+    <Entry Key="DES_BD_NYX" Val="Nyx" />
+    <Entry Key="DES_BD_NYX_DES" Val="Deusa da Noite. Mestre de misticismo e destino. Controla a escuridão e os sonhos noturnos." />
+    <Entry Key="DES_BD_ERES" Val="Eres" />
+    <Entry Key="DES_BD_ERES_DES" Val="Deusa do Desejo. Mestre de carisma e moral. Encanta e seduz inimigos." />
+    <Entry Key="DES_BD_PHANTOM" Val="Phantom" />
+    <Entry Key="DES_BD_PHANTOM_DES" Val="Fantasma do Sono. Mestre de misticismo e esquiva. Entidade etérea do mundo dos sonhos." />
+    <Entry Key="DES_BD_ITEM_AREIA_SONHOS" Val="Areia dos Sonhos" />
+    <Entry Key="DES_BD_ITEM_AREIA_SONHOS_DES" Val="Areia mágica que induzem sono. Usada em receitas de construção de sonhos." />
+    <Entry Key="DES_BD_ITEM_MASCARA_SONO" Val="Máscara do Sono" />
+    <Entry Key="DES_BD_ITEM_MASCARA_SONO_DES" Val="Máscara que protege contra sonhos e induzem sono profundo no portador." />
+    <Entry Key="DES_BD_ITEM_PIPOCA_ONIRO" Val="Pipoca Oniro" />
+    <Entry Key="DES_BD_ITEM_PIPOCA_ONIRO_DES" Val="Lanche onírico que restaura moral e induzem sonhos lúcidos." />
+    <Entry Key="DES_BD_ITEM_AMPULETA_TEMPO" Val="Ampulheta do Tempo" />
+    <Entry Key="DES_BD_ITEM_AMPULETA_TEMPO_DES" Val="Ampulheta que desacelera o tempo. Permite balas do matrix e esquiva perfeita." />
+    <Entry Key="DES_BD_ITEM_COLAR_SONHOS" Val="Colar dos Sonhos" />
+    <Entry Key="DES_BD_ITEM_COLAR_SONHOS_DES" Val="Joia que protege contra pesadelos e aumenta conexão com entidades oníricas." />
+    <Entry Key="DES_BD_TECH_SAND" Val="Tradição da Areia" />
+    <Entry Key="DES_BD_TECH_SAND_DES" Val="Receitas: Sandman, Areia dos Sonhos." />
+    <Entry Key="DES_BD_SANDMAN_1" Val="Sandman aprimorado" />
+    <Entry Key="DES_BD_SANDMAN_1_DES" Val="Aprimora Sandman." />
+    <Entry Key="DES_BD_AREIA_1" Val="Areia dos Sonhos aprimorado" />
+    <Entry Key="DES_BD_AREIA_1_DES" Val="Aprimora Areia dos Sonhos." />
+    <Entry Key="DES_BD_TECH_SLEEP" Val="Artes do Sono" />
+    <Entry Key="DES_BD_TECH_SLEEP_DES" Val="Receitas: Máscara do Sono, Pipoca Oniro, Colar dos Sonhos." />
+    <Entry Key="DES_BD_TECH_TIME" Val="Artefatos do Tempo" />
+    <Entry Key="DES_BD_TECH_TIME_DES" Val="Receitas: Ampulheta do Tempo." />
+  </LOC_LIBRARY-BD_PT>
+</DATABASE_DES_LOCALIZATION-NO_HSH>

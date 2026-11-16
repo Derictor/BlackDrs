@@ -1,0 +1,7 @@
+<TRAIT_CARD_CARDS>
+  <TRAIT_CARD-BD_LORD_DREAMS UnlockCost="3" UseCost="3">
+    <DescriptionInfo Name="DES_BD_CLASSE" Description="DES_BD_CLASSE_DES" IconName="BD_DRUMS_Classe" />
+    <AddSubrace Value="SUBRACE-BD_DRUMS" />
+    <DomainType Value="TAG-DOMAIN_MAGIC" />
+  </TRAIT_CARD-BD_LORD_DREAMS>
+</TRAIT_CARD_CARDS>

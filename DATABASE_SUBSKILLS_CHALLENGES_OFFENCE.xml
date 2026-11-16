@@ -1,0 +1,35 @@
+<SUBSKILLS_CHALLENGES>
+  <SUBSKILL-BD_MATRIX Delay="0.5" Animation="Hit6" Sound="SubskillPoisonThrowingDagger">
+    <DescriptionInfo Name="DES_BD_MATRIX" Description="DES_BD_MATRIX_DES" IconName="SKILL_BD_MATRIX" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_DO_ATTACK" DamageIcon="TAG-DAMAGE_POISON_ESSENCE" TargetIcon="TAG-TARGET_RANGED_ENEMY" AttackInfo="{SCRIPT:SI_Damage}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="DoAttack" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_RangeTargeting" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen" />
+    </Targets>
+    <Activation ScriptName="Act_PoisonEssenceDamage" />
+    <ChallengeType Value="TypePhysical" />
+    <ChallengeType Value="TypeMental" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <MainAtt Amount="0.0" Tag="TAG-CA_1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="10.0">
+      <MainAtt Amount="0.8" Tag="TAG-CA_1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="30.0">
+      <MainAtt Amount="1.0" Tag="TAG-CA_1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="90.0">
+      <MainAtt Amount="1.2" Tag="TAG-CA_1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="250.0">
+      <MainAtt Amount="1.5" Tag="TAG-CA_1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="500.0">
+      <MainAtt Amount="1.8" Tag="TAG-CA_1" />
+    </SubskillAttributesOnLevel>
+  </SUBSKILL-BD_MATRIX>
+</SUBSKILLS_CHALLENGES>

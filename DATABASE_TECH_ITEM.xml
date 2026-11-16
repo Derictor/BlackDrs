@@ -1,0 +1,49 @@
+<ITEMS_TECH>
+  <!-- Eixo: Areia e Sonho -->
+  <ITEM_TECH-BD_SAND UpgradeCost="1">
+    <DescriptionInfo Name="Tradição da Areia" Description="Receitas: Sandman, Areia dos Sonhos." IconName="BD_DRUMS_Classe"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_SANDMAN"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_AREIA_SONHOS"/>
+    </UnlockRecipe>
+  </ITEM_TECH-BD_SAND>
+
+  <ITEM_TECH-BD_SANDMAN_1 UpgradeCost="1">
+    <DescriptionInfo Name="Sandman aprimorado" Description="Aprimora Sandman." IconName="BD_SANDMAN_Roster"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_SANDMAN"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-BD_SAND"/>
+  </ITEM_TECH-BD_SANDMAN_1>
+
+  <ITEM_TECH-BD_AREIA_1 UpgradeCost="1">
+    <DescriptionInfo Name="Areia dos Sonhos aprimorado" Description="Aprimora Areia dos Sonhos." IconName="ITEM_AREIA_SONHOS"/>
+    <UpgradeRecipe EssenceBonus="5" AdditionalPrimeRes="1" AdditionalSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_AREIA_SONHOS"/>
+    </UpgradeRecipe>
+    <ParentItemTech Value="ITEM_TECH-BD_SAND"/>
+  </ITEM_TECH-BD_AREIA_1>
+
+  <!-- Eixo: Itens de Sono e Tempo -->
+  <ITEM_TECH-BD_SLEEP UpgradeCost="1">
+    <DescriptionInfo Name="Artes do Sono" Description="Receitas: Máscara do Sono, Pipoca Oniro, Colar dos Sonhos." IconName="ITEM_MASCARA_SONO"/>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_MASCARA_SONO"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_PIPOCA_ONIRO"/>
+    </UnlockRecipe>
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <ItemRecipe Value="ITEM_REC-BD_COLAR_SONHOS"/>
+    </UnlockRecipe>
+  </ITEM_TECH-BD_SLEEP>
+
+  <ITEM_TECH-BD_TIME UpgradeCost="1">
+    <DescriptionInfo Name="Artefatos do Tempo" Description="Receitas: Ampulheta do Tempo." IconName="ITEM_AMPULETA_TEMPO"/>
+    <UnlockRecipe UnlockPrimeRes="2" UnlockSecRes="2">
+      <ItemRecipe Value="ITEM_REC-BD_AMPULETA_TEMPO"/>
+    </UnlockRecipe>
+  </ITEM_TECH-BD_TIME>
+</ITEMS_TECH>

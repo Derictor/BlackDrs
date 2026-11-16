@@ -1,0 +1,7 @@
+<TAGS>
+  <TAG-BD_CASA_SONO Visible="TRUE">
+    <DescriptionInfo Name="Casa do Sono" Description="Um refúgio construído segundo Black Drs aumenta a sanidade máxima dos moradores." IconName="BuildingDwellingBedsWood" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BUILDING" />
+  </TAG-BD_CASA_SONO>
+</TAGS>

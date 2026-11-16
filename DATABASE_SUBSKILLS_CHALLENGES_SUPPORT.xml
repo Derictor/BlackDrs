@@ -1,0 +1,66 @@
+<SUBSKILLS_CHALLENGES>
+  <SUBSKILL-BD_SONO Delay="0.0" Animation="Spell3" Sound="SubskillDelayEnemies">
+    <DescriptionInfo Name="DES_BD_SONO" Description="DES_BD_SONO_DES" IconName="SKILL_BD_SONO" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_INCREASES_DELAY" TargetIcon="TAG-TARGET_SELECTED_ENEMY" AttackInfo="{SCRIPT:SI_Stun}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="DoCastInstant" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_OpponentBattlefieldOrHandPositions" />
+      <TargetCountRange MinimumCount="1" MaximumCount="1" TargetIndication="Chosen" />
+    </Targets>
+    <Activation ScriptName="Act_Stun" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="0.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="2.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="2.5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="3.2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="4.1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="5.2" />
+    </SubskillAttributesOnLevel>
+    <ChallengeType Value="TypeSpirit" />
+  </SUBSKILL-BD_SONO>
+  <SUBSKILL-BD_HIPNOSE Delay="0.0" Animation="Spell3" Sound="SubskillDelayEnemies">
+    <DescriptionInfo Name="DES_BD_HIPNOSE" Description="DES_BD_HIPNOSE_DES" IconName="SKILL_BD_HIPNOSE" />
+    <ShortInfo TriggerIcon="TAG-TRIGGER_DO_CAST_INSTANT" DamageIcon="TAG-DAMAGE_INCREASES_DELAY" TargetIcon="TAG-TARGET_SELECTED_ENEMY" AttackInfo="{SCRIPT:SI_Stun}" />
+    <Trigger Priority="0" RequiredToBeInFrontline="FALSE" RequiredToBeInBackline="FALSE">
+      <TriggerGroup Value="DoCastInstant" />
+      <TriggerScript ScriptName="" />
+    </Trigger>
+    <Targets>
+      <TargetScript ScriptName="Trg_OpponentBattlefieldOrHandPositions" />
+      <TargetCountRange MinimumCount="1" MaximumCount="2" TargetIndication="Chosen" />
+    </Targets>
+    <Activation ScriptName="Act_Stun" />
+    <SubskillAttributesOnLevel Level="0" PowerLevel="0.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="0.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="1" PowerLevel="0.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="2.0" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="2" PowerLevel="4.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="2.5" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="3" PowerLevel="14.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="3.2" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="4" PowerLevel="29.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="4.1" />
+    </SubskillAttributesOnLevel>
+    <SubskillAttributesOnLevel Level="5" PowerLevel="59.0">
+      <SubskillAttribute Identifier="Stun" AttributeFloatValue="5.2" />
+    </SubskillAttributesOnLevel>
+    <ChallengeType Value="TypeMental" />
+  </SUBSKILL-BD_HIPNOSE>
+</SUBSKILLS_CHALLENGES>

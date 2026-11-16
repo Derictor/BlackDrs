@@ -1,0 +1,19 @@
+<RECIPTS_RITUALS>
+  <RITUAL_REC-BD_CASA_SONO UseCount="-1" WorkCost="300">
+    <Script ScriptName="Rit_BlessMental" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Vigília dos Sonhos" Description="Concede a bênção mental do jogo ao grupo." IconName="RitualMentalBless" />
+      <CountedTag Tag="TAG-BUILDING_RITUAL" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="21">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="17">
+          <Resource Value="RES-AMBER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+  </RITUAL_REC-BD_CASA_SONO>
+</RECIPTS_RITUALS>

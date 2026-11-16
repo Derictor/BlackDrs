@@ -1,0 +1,182 @@
+<RECIPES_ITEMS>
+  <ITEM_REC-BD_SANDMAN ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Companion" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_BD_SANDMAN" Description="DES_BD_SANDMAN_DES" IconName="BD_SANDMAN_Roster" />
+      <CountedTag Tag="TAG-BD_GOD_SANDMAN" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_SANDMAN" />
+  </ITEM_REC-BD_SANDMAN>
+  <ITEM_REC-BD_AREIA_SONHOS ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_BD_ITEM_AREIA_SONHOS" Description="DES_BD_ITEM_AREIA_SONHOS_DES" IconName="ITEM_AREIA_SONHOS" />
+      <CountedTag Tag="TAG-BD_SAND_ITEM" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-SANDSTONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_ITEM_AREIA_SONHOS" />
+  </ITEM_REC-BD_AREIA_SONHOS>
+  <ITEM_REC-BD_MASCARA_SONO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_BD_ITEM_MASCARA_SONO" Description="DES_BD_ITEM_MASCARA_SONO_DES" IconName="ITEM_MASCARA_SONO" />
+      <CountedTag Tag="TAG-BD_MASK_ITEM" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-CLAY" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_ITEM_MASCARA_SONO" />
+  </ITEM_REC-BD_MASCARA_SONO>
+  <ITEM_REC-BD_PIPOCA_ONIRO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Tool" />
+    <RecipeBase ResearchCost="1" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_BD_ITEM_PIPOCA_ONIRO" Description="DES_BD_ITEM_PIPOCA_ONIRO_DES" IconName="ITEM_PIPOCA_ONIRO" />
+      <CountedTag Tag="TAG-BD_PIPETA_ITEM" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SPICES" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="2">
+          <Resource Value="RES-GRAIN" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-SPICES" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_ITEM_PIPOCA_ONIRO" />
+  </ITEM_REC-BD_PIPOCA_ONIRO>
+  <ITEM_REC-BD_AMPULETA_TEMPO ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_BD_ITEM_AMPULETA_TEMPO" Description="DES_BD_ITEM_AMPULETA_TEMPO_DES" IconName="ITEM_AMPULETA_TEMPO" />
+      <CountedTag Tag="TAG-BD_AMPULETA_ITEM" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-QUARTZ" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-MOONSTONE" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_ITEM_AMPULETA_TEMPO" />
+  </ITEM_REC-BD_AMPULETA_TEMPO>
+  <ITEM_REC-BD_COLAR_SONHOS ItemsAmount="1" WeightMultiplier="0.55">
+    <InventorySlot Value="Jewellery" />
+    <RecipeBase ResearchCost="2" ResChildForbid="FALSE">
+      <DescriptionInfo Name="DES_BD_ITEM_COLAR_SONHOS" Description="DES_BD_ITEM_COLAR_SONHOS_DES" IconName="ITEM_COLAR_SONHOS" />
+      <CountedTag Tag="TAG-BD_COLAR_ITEM" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="3">
+          <Resource Value="RES-AMBER" />
+        </Material>
+        <Material ResourceCount="2">
+          <Resource Value="RES-BONE" />
+        </Material>
+        <Material ResourceCount="1">
+          <Resource Value="RES-HERBS" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_ITEM_COLAR_SONHOS" />
+  </ITEM_REC-BD_COLAR_SONHOS>
+</RECIPES_ITEMS>

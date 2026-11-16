@@ -1,0 +1,100 @@
+<TAGS_QUEST>
+  <TAG-BD_GOD_SANDMAN Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_SANDMAN>
+  <TAG-BD_GOD_MORPHEUS Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_MORPHEUS>
+  <TAG-BD_GOD_HYPNOS Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_HYPNOS>
+  <TAG-BD_GOD_ONEIROS Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_ONEIROS>
+  <TAG-BD_GOD_NYX Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_NYX>
+  <TAG-BD_GOD_ERES Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_ERES>
+  <TAG-BD_GOD_PHANTOM Visible="FALSE">
+    <TagType Value="CharacterType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_GOD_PHANTOM>
+  <TAG-BD_SLEEP Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_SLEEP>
+  <TAG-BD_TIRED Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_TIRED>
+  <TAG-BD_HYPNOTIZED Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_HYPNOTIZED>
+  <TAG-BD_CHARMED Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_CHARMED>
+  <TAG-BD_MATRIX Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_MATRIX>
+  <TAG-BD_SAND Visible="FALSE">
+    <TagType Value="ItemType" />
+  </TAG-BD_SAND>
+  <TAG-BD_SANDMAN_CORE Visible="FALSE">
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-BD_DREAM_CONSTRUCT" />
+    <Parent Value="TAG-PET" />
+  </TAG-BD_SANDMAN_CORE>
+  <TAG-BD_UNIQUE_RECRUITED Visible="FALSE" UseCount="TRUE">
+    <TagType Value="WorldType" />
+  </TAG-BD_UNIQUE_RECRUITED>
+  <TAG-BD_CORRUPCAO_SONO Visible="FALSE" UseCount="TRUE">
+    <TagType Value="WorldType" />
+  </TAG-BD_CORRUPCAO_SONO>
+  <TAG-BD_SAND_ITEM Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_BD_ITEM_AREIA_SONHOS" Description="DES_BD_ITEM_AREIA_SONHOS_DES" IconName="ITEM_AREIA_SONHOS" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-BD_SAND_ITEM>
+  <TAG-BD_MASK_ITEM Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_BD_ITEM_MASCARA_SONO" Description="DES_BD_ITEM_MASCARA_SONO_DES" IconName="ITEM_MASCARA_SONO" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-BD_MASK_ITEM>
+  <TAG-BD_PIPETA_ITEM Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_BD_ITEM_PIPOCA_ONIRO" Description="DES_BD_ITEM_PIPOCA_ONIRO_DES" IconName="ITEM_PIPOCA_ONIRO" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-BD_PIPETA_ITEM>
+  <TAG-BD_AMPULETA_ITEM Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_BD_ITEM_AMPULETA_TEMPO" Description="DES_BD_ITEM_AMPULETA_TEMPO_DES" IconName="ITEM_AMPULETA_TEMPO" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-TOOLS" />
+  </TAG-BD_AMPULETA_ITEM>
+  <TAG-BD_COLAR_ITEM Visible="FALSE" UseCount="TRUE">
+    <DescriptionInfo Name="DES_BD_ITEM_COLAR_SONHOS" Description="DES_BD_ITEM_COLAR_SONHOS_DES" IconName="ITEM_COLAR_SONHOS" />
+    <TagType Value="ItemType" />
+    <Parent Value="TAG-JEWELLERY" />
+  </TAG-BD_COLAR_ITEM>
+  <TAG-BD_DREAM_CONSTRUCT Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_DREAM_CONSTRUCT>
+  <TAG-BD_DREAM_STERILE Visible="FALSE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_DREAM_STERILE>
+  <TAG-BD_TECH_DISCOVERED Visible="FALSE" UseCount="TRUE">
+    <TagType Value="CharacterType" />
+  </TAG-BD_TECH_DISCOVERED>
+</TAGS_QUEST>

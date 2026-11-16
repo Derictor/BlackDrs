@@ -1,0 +1,50 @@
+<CHARACTER_NAMES>
+  <NAME_COLLECTION-BD_DRUMS>
+    <Race Value="RACE-HUMAN" />
+    <Subrace Value="SUBRACE-BD_DRUMS" />
+    <CharacterMale Value="Black Drs" />
+    <CharacterFemale Value="Black Drs" />
+  </NAME_COLLECTION-BD_DRUMS>
+  <NAME_COLLECTION-BD_SANDMAN>
+    <Race Value="RACE-CONCEPT" />
+    <Subrace Value="SUBRACE-BD_SANDMAN" />
+    <CharacterMale Value="Sandman" />
+    <CharacterFemale Value="Sandwoman" />
+  </NAME_COLLECTION-BD_SANDMAN>
+  <NAME_COLLECTION-BD_MORPHEUS>
+    <Race Value="RACE-MYTHICAL" />
+    <Subrace Value="SUBRACE-BD_MORPHEUS" />
+    <CharacterMale Value="Morpheus" />
+    <CharacterFemale Value="Morpheia" />
+  </NAME_COLLECTION-BD_MORPHEUS>
+  <NAME_COLLECTION-BD_HYPNOS>
+    <Race Value="RACE-MYTHICAL" />
+    <Subrace Value="SUBRACE-BD_HYPNOS" />
+    <CharacterMale Value="Hypnos" />
+    <CharacterFemale Value="Hypna" />
+  </NAME_COLLECTION-BD_HYPNOS>
+  <NAME_COLLECTION-BD_ONEIROS>
+    <Race Value="RACE-MYTHICAL" />
+    <Subrace Value="SUBRACE-BD_ONEIROS" />
+    <CharacterMale Value="Oneiros" />
+    <CharacterFemale Value="Oneira" />
+  </NAME_COLLECTION-BD_ONEIROS>
+  <NAME_COLLECTION-BD_NYX>
+    <Race Value="RACE-MYTHICAL" />
+    <Subrace Value="SUBRACE-BD_NYX" />
+    <CharacterMale Value="Nyx" />
+    <CharacterFemale Value="Nyx" />
+  </NAME_COLLECTION-BD_NYX>
+  <NAME_COLLECTION-BD_ERES>
+    <Race Value="RACE-MYTHICAL" />
+    <Subrace Value="SUBRACE-BD_ERES" />
+    <CharacterMale Value="Eres" />
+    <CharacterFemale Value="Erea" />
+  </NAME_COLLECTION-BD_ERES>
+  <NAME_COLLECTION-BD_PHANTOM>
+    <Race Value="RACE-UNLIVING" />
+    <Subrace Value="SUBRACE-BD_PHANTOM" />
+    <CharacterMale Value="Phantom" />
+    <CharacterFemale Value="Phantoma" />
+  </NAME_COLLECTION-BD_PHANTOM>
+</CHARACTER_NAMES>

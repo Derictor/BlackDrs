@@ -1,0 +1,135 @@
+<SKILLS_1_NATURAL name="1_Natural">
+  <SKILL-BD_CLASSE Rarity="0">
+    <DescriptionInfo Name="DES_BD_CLASSE" Description="DES_BD_CLASSE_DES" IconName="BD_DRUMS_Classe" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_RITUALS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_CLASSE>
+  <SKILL-BD_ARIA Rarity="0">
+    <DescriptionInfo Name="DES_BD_ARIA" Description="DES_BD_ARIA_DES" IconName="SKILL_BD_ARIA" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_CRAFTING" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ARIA>
+  <SKILL-BD_SONO Rarity="0">
+    <DescriptionInfo Name="DES_BD_SONO" Description="DES_BD_SONO_DES" IconName="SKILL_BD_SONO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BD_SONO" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_SONO>
+  <SKILL-BD_HIPNOSE Rarity="0">
+    <DescriptionInfo Name="DES_BD_HIPNOSE" Description="DES_BD_HIPNOSE_DES" IconName="SKILL_BD_HIPNOSE" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BD_HIPNOSE" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_HIPNOSE>
+  <SKILL-BD_DESTINO Rarity="0">
+    <DescriptionInfo Name="DES_BD_DESTINO" Description="DES_BD_DESTINO_DES" IconName="SKILL_BD_DESTINO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WEAK_DESTINY" />
+    <SkillSubskill Value="SUBSKILL-ADD_LUCK" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_DESTINO>
+  <SKILL-BD_FE Rarity="0">
+    <DescriptionInfo Name="DES_BD_FE" Description="DES_BD_FE_DES" IconName="SKILL_BD_FE" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_RITUALS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_FE>
+  <SKILL-BD_SABEDORIA Rarity="0">
+    <DescriptionInfo Name="DES_BD_SABEDORIA" Description="DES_BD_SABEDORIA_DES" IconName="SKILL_BD_SABEDORIA" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WISDOM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_SABEDORIA>
+  <SKILL-BD_ENCANTAR Rarity="0">
+    <DescriptionInfo Name="DES_BD_ENCANTAR" Description="DES_BD_ENCANTAR_DES" IconName="SKILL_BD_ENCANTAR" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ENCANTAR>
+  <SKILL-BD_BELEZA Rarity="0">
+    <DescriptionInfo Name="DES_BD_BELEZA" Description="DES_BD_BELEZA_DES" IconName="SKILL_BD_BELEZA" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WITS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_BELEZA>
+  <SKILL-BD_MATRIX Rarity="0">
+    <DescriptionInfo Name="DES_BD_MATRIX" Description="DES_BD_MATRIX_DES" IconName="SKILL_BD_MATRIX" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BD_MATRIX" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_MATRIX>
+  <SKILL-BD_SANDMAN Rarity="0">
+    <DescriptionInfo Name="DES_BD_SANDMAN" Description="DES_BD_SANDMAN_DES" IconName="SKILL_BD_SANDMAN" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BD_SONO" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_SANDMAN>
+  <SKILL-BD_MORPHEUS Rarity="0">
+    <DescriptionInfo Name="DES_BD_MORPHEUS" Description="DES_BD_MORPHEUS_DES" IconName="BD_MORPHEUS_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_MORPHEUS>
+  <SKILL-BD_HYPNOS Rarity="0">
+    <DescriptionInfo Name="DES_BD_HYPNOS" Description="DES_BD_HYPNOS_DES" IconName="BD_HYPNOS_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BD_HIPNOSE" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_HYPNOS>
+  <SKILL-BD_ONEIROS Rarity="0">
+    <DescriptionInfo Name="DES_BD_ONEIROS" Description="DES_BD_ONEIROS_DES" IconName="BD_ONEIROS_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WISDOM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ONEIROS>
+  <SKILL-BD_NYX Rarity="0">
+    <DescriptionInfo Name="DES_BD_NYX" Description="DES_BD_NYX_DES" IconName="BD_NYX_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_LUCK" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_NYX>
+  <SKILL-BD_ERES Rarity="0">
+    <DescriptionInfo Name="DES_BD_ERES" Description="DES_BD_ERES_DES" IconName="BD_ERES_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WITS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ERES>
+  <SKILL-BD_PHANTOM Rarity="0">
+    <DescriptionInfo Name="DES_BD_PHANTOM" Description="DES_BD_PHANTOM_DES" IconName="BD_PHANTOM_Roster" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BD_MATRIX" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_PHANTOM>
+  <SKILL-BD_ITEM_AREIA_SONHOS Rarity="0">
+    <DescriptionInfo Name="DES_BD_ITEM_AREIA_SONHOS" Description="DES_BD_ITEM_AREIA_SONHOS_DES" IconName="ITEM_AREIA_SONHOS" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_RITUALS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ITEM_AREIA_SONHOS>
+  <SKILL-BD_ITEM_MASCARA_SONO Rarity="0">
+    <DescriptionInfo Name="DES_BD_ITEM_MASCARA_SONO" Description="DES_BD_ITEM_MASCARA_SONO_DES" IconName="ITEM_MASCARA_SONO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WISDOM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ITEM_MASCARA_SONO>
+  <SKILL-BD_ITEM_PIPOCA_ONIRO Rarity="0">
+    <DescriptionInfo Name="DES_BD_ITEM_PIPOCA_ONIRO" Description="DES_BD_ITEM_PIPOCA_ONIRO_DES" IconName="ITEM_PIPOCA_ONIRO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_LUCK" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ITEM_PIPOCA_ONIRO>
+  <SKILL-BD_ITEM_AMPULETA_TEMPO Rarity="0">
+    <DescriptionInfo Name="DES_BD_ITEM_AMPULETA_TEMPO" Description="DES_BD_ITEM_AMPULETA_TEMPO_DES" IconName="ITEM_AMPULETA_TEMPO" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_WITS" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ITEM_AMPULETA_TEMPO>
+  <SKILL-BD_ITEM_COLAR_SONHOS Rarity="0">
+    <DescriptionInfo Name="DES_BD_ITEM_COLAR_SONHOS" Description="DES_BD_ITEM_COLAR_SONHOS_DES" IconName="ITEM_COLAR_SONHOS" />
+    <BaseEssence Amount="5" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-ADD_MYSTICISM" />
+    <SkillGroupFilter Value="Fallback" />
+  </SKILL-BD_ITEM_COLAR_SONHOS>
+</SKILLS_1_NATURAL>

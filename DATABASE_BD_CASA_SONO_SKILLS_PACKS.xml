@@ -1,0 +1,9 @@
+<SKILLS_PACKS>
+  <SKILL_PACK-BD_CASA_SONO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_CASA_SONO" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="BD_CASA_SONO" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_CASA_SONO>
+</SKILLS_PACKS>

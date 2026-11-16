@@ -1,0 +1,16 @@
+<BUILDINGS_TECH>
+  <BUILDING_TECH-BD_CASA_SONO UpgradeCost="3">
+    <DescriptionInfo Name="Casa do Sono" Description="Um refúgio construído segundo Black Drs aumenta a sanidade máxima dos moradores." IconName="BuildingDwellingBedsWood" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <BuildingRecipe Value="BUILD_REC-BD_CASA_SONO" />
+    </UnlockRecipe>
+    <ParentBuildingTech Value="BUILDING_TECH-DWELLING_BEDS" />
+  </BUILDING_TECH-BD_CASA_SONO>
+  <BUILDING_TECH-BD_CASA_SONO_RITO UpgradeCost="1">
+    <DescriptionInfo Name="Vigília dos Sonhos" Description="Concede a bênção mental do jogo ao grupo." IconName="RitualMentalBless" />
+    <UnlockRecipe UnlockPrimeRes="1" UnlockSecRes="1">
+      <RitualRecipe Value="RITUAL_REC-BD_CASA_SONO" />
+    </UnlockRecipe>
+    <ParentBuildingTech Value="BUILDING_TECH-BD_CASA_SONO" />
+  </BUILDING_TECH-BD_CASA_SONO_RITO>
+</BUILDINGS_TECH>

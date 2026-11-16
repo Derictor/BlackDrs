@@ -1,0 +1,9 @@
+<SKILLS_BUILDINGS>
+  <SKILL-BD_CASA_SONO Rarity="0">
+    <DescriptionInfo Name="Casa do Sono" Description="Um refúgio construído segundo Black Drs aumenta a sanidade máxima dos moradores." IconName="BuildingDwellingBedsWood" />
+    <BaseEssence Amount="45" Tag="TAG-ESSENCE_GRAY" />
+    <SkillSubskill Value="SUBSKILL-BUILDING_ADD_WEAK_MAX_HEALTH_M" />
+    <SkillGroupFilter Value="Building" />
+    <SkillGroupFilter Value="BD_CASA_SONO" />
+  </SKILL-BD_CASA_SONO>
+</SKILLS_BUILDINGS>

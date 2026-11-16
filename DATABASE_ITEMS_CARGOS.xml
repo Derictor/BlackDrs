@@ -1,0 +1,88 @@
+<ITEMS_CARGOS>
+  <!-- Pets Black Drs -->
+  <ITEM_CARGO-BD_SANDMAN TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_SANDMAN" />
+  </ITEM_CARGO-BD_SANDMAN>
+  <ITEM_CARGO-BD_MORPHEUS TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_MORPHEUS" />
+  </ITEM_CARGO-BD_MORPHEUS>
+  <ITEM_CARGO-BD_HYPNOS TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_HYPNOS" />
+  </ITEM_CARGO-BD_HYPNOS>
+  <ITEM_CARGO-BD_ONEIROS TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_ONEIROS" />
+  </ITEM_CARGO-BD_ONEIROS>
+  <ITEM_CARGO-BD_NYX TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_NYX" />
+  </ITEM_CARGO-BD_NYX>
+  <ITEM_CARGO-BD_ERES TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_ERES" />
+  </ITEM_CARGO-BD_ERES>
+  <ITEM_CARGO-BD_PHANTOM TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_GOD_PHANTOM" />
+  </ITEM_CARGO-BD_PHANTOM>
+  <!-- Itens Black Drs -->
+  <ITEM_CARGO-BD_ITEM_AREIA_SONHOS TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_SAND_ITEM" />
+  </ITEM_CARGO-BD_ITEM_AREIA_SONHOS>
+  <ITEM_CARGO-BD_ITEM_MASCARA_SONO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_MASK_ITEM" />
+  </ITEM_CARGO-BD_ITEM_MASCARA_SONO>
+  <ITEM_CARGO-BD_ITEM_PIPOCA_ONIRO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_PIPETA_ITEM" />
+  </ITEM_CARGO-BD_ITEM_PIPOCA_ONIRO>
+  <ITEM_CARGO-BD_ITEM_AMPULETA_TEMPO TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_AMPULETA_ITEM" />
+  </ITEM_CARGO-BD_ITEM_AMPULETA_TEMPO>
+  <ITEM_CARGO-BD_ITEM_COLAR_SONHOS TrashChance="0" MasterChance="0">
+    <ResourceRarityRange MinimumCount="0" MaximumCount="100" />
+    <SkillRarityRange MinimumCount="0" MaximumCount="100" />
+    <LevelRange MinimumCount="1" MaximumCount="1" />
+    <NumberOfItems MinimumCount="1" MaximumCount="1" />
+    <RequiredTag Value="TAG-BD_COLAR_ITEM" />
+  </ITEM_CARGO-BD_ITEM_COLAR_SONHOS>
+</ITEMS_CARGOS>

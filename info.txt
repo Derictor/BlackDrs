@@ -1,0 +1,62 @@
+<ModInfo Name="Sandman — Senhor dos Sonhos" Graphic="Sandman_Capa.jpg" Visibility="0">
+  <IMAGE Name="BD_DRUMS_Portrait" Model="HumanInventorM01" Path="Images/Interface/Portraits/BD_DRUMS_Portrait.png" Path2="Images/Interface/Roster/BD_DRUMS_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="BD_DRUMS_Card" Path="Images/Interface/Cards/BD_DRUMS_Card.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="BD_DRUMS_Classe" Path="Images/Interface/Classe/BD_DRUMS_Classe.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="BD_SANDMAN_Roster" Path="Images/Interface/Roster/BD_SANDMAN_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="Leshy" />
+  <IMAGE Name="BD_MORPHEUS_Roster" Path="Images/Interface/Roster/BD_MORPHEUS_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="StrigaMaster" />
+  <IMAGE Name="BD_HYPNOS_Roster" Path="Images/Interface/Roster/BD_HYPNOS_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="Rusalka2" />
+  <IMAGE Name="BD_ONEIROS_Roster" Path="Images/Interface/Roster/BD_ONEIROS_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="CrowRoyal" />
+  <IMAGE Name="BD_NYX_Roster" Path="Images/Interface/Roster/BD_NYX_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="StrigaMistress" />
+  <IMAGE Name="BD_ERES_Roster" Path="Images/Interface/Roster/BD_ERES_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="Rusalka1" />
+  <IMAGE Name="BD_PHANTOM_Roster" Path="Images/Interface/Roster/BD_PHANTOM_Roster.png" MemoryStorage="true" TagMode="false" EventImage="false" Model="Crow" />
+  <IMAGE Name="EV_SONO_PROFUNDO" Path="Images/Interface/Events/EV_SONO_PROFUNDO.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_MATRIX_BULLETS" Path="Images/Interface/Events/EV_MATRIX_BULLETS.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_DEUS_DOS_SONHOS" Path="Images/Interface/Events/EV_DEUS_DOS_SONHOS.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_HIPNOSE_COLETIVA" Path="Images/Interface/Events/EV_HIPNOSE_COLETIVA.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_AREIA_MAGICA" Path="Images/Interface/Events/EV_AREIA_MAGICA.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="SKILL_BD_ARIA" Path="Images/Interface/Skills/SKILL_BD_ARIA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_SONO" Path="Images/Interface/Skills/SKILL_BD_SONO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_HIPNOSE" Path="Images/Interface/Skills/SKILL_BD_HIPNOSE.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_DESTINO" Path="Images/Interface/Skills/SKILL_BD_DESTINO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_FE" Path="Images/Interface/Skills/SKILL_BD_FE.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_SABEDORIA" Path="Images/Interface/Skills/SKILL_BD_SABEDORIA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_ENCANTAR" Path="Images/Interface/Skills/SKILL_BD_ENCANTAR.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_BELEZA" Path="Images/Interface/Skills/SKILL_BD_BELEZA.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_MATRIX" Path="Images/Interface/Skills/SKILL_BD_MATRIX.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SKILL_BD_SANDMAN" Path="Images/Interface/Skills/SKILL_BD_SANDMAN.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_AREIA_SONHOS" Path="Images/Interface/Items/ITEM_AREIA_SONHOS.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_MASCARA_SONO" Path="Images/Interface/Items/ITEM_MASCARA_SONO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_PIPOCA_ONIRO" Path="Images/Interface/Items/ITEM_PIPOCA_ONIRO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_AMPULETA_TEMPO" Path="Images/Interface/Items/ITEM_AMPULETA_TEMPO.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="ITEM_COLAR_SONHOS" Path="Images/Interface/Items/ITEM_COLAR_SONHOS.png" MemoryStorage="true" TagMode="false" EventImage="false" />
+  <IMAGE Name="SC_MORFEU_APARECE" Path="Images/Interface/Scenes/SC_MORFEU_APARECE.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <IMAGE Name="EV_MATRIX_SCENE" Path="Images/Interface/Scenes/EV_MATRIX_SCENE.jpg" MemoryStorage="false" TagMode="false" EventImage="true" />
+  <DB>DATABASE_BD_CASA_SONO_RECIPES_BUILDINGS.xml</DB>
+  <DB>DATABASE_BD_CASA_SONO_RECIPES_RITUALS.xml</DB>
+  <DB>DATABASE_BD_CASA_SONO_SKILLS_BUILDINGS.xml</DB>
+  <DB>DATABASE_BD_CASA_SONO_SKILLS_PACKS.xml</DB>
+  <DB>DATABASE_BD_CASA_SONO_TAGS.xml</DB>
+  <DB>DATABASE_BD_CASA_SONO_TECH_BUILDING_RITUALS.xml</DB>
+  <DB>DATABASE_TAGS_QUEST.xml</DB>
+  <DB>DATABASE_DES_NAMES.xml</DB>
+  <DB>DATABASE_DES_LOCALIZATION.xml</DB>
+  <DB>DATABASE_SUBRACE.xml</DB>
+  <DB>DATABASE_SKILLS_1_NATURAL.xml</DB>
+  <DB>DATABASE_SKILLS_PACKS.xml</DB>
+  <DB>DATABASE_SUBSKILLS_CHALLENGES_SUPPORT.xml</DB>
+  <DB>DATABASE_ITEMS_CARGOS.xml</DB>
+  <DB>DATABASE_TRAIT_CARDS.xml</DB>
+  <DB>DATABASE_RECIPES_ITEMS.xml</DB>
+  <DB>DATABASE_TECH_ITEM.xml</DB>
+  <SCRIPT>BD_UniqueRecruitment.cs</SCRIPT>
+  <STORY_MODULE>BD_Sonhos.xml</STORY_MODULE>
+  <TAG>Characters</TAG>
+<DB>DATABASE_SUBSKILLS_CHALLENGES_OFFENCE.xml</DB>
+Black Drs oferece descanso aos aliados e pesadelos a quem os ameaça.
+
+O QUE O MOD ADICIONA
+- Uma classe recrutável com sono, hipnose e as Balas do Matrix.
+- Encontros noturnos, incluindo o Santuário da Areia Noturna.
+- Ampulheta, amuletos e um espírito de areia.
+- Na Formatura do Sonho, jovens aptos podem aprender a classe Sandman.
+</ModInfo>

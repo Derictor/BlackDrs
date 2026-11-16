@@ -1,0 +1,150 @@
+<MODULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="BD_Sonhos" lastEventIndex="4" allowToUse="true" uniqueModuleID="2736184722">
+  <Adventure name="O Sonho de Black Drs" uniqueID="1" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_SONO_PROFUNDO">
+      <logic>
+        <FilterBlock>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="36" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_BD_UniqueRecruitment" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_SONO_PROFUNDO">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_BD_DiscoverResearch" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Ajudar Black Drs a despertar o sono e recrutá-lo." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Seguir viagem." />Black Drs medita sobre um montão de areia mágica. Seus olhos estão fechados, mas ele enxerga sonhos que ninguém mais vê.
+
+â€” Venham. O sono está calling. Quem sonha comigo, nunca dorme sozinho.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="EV_SONO_PROFUNDO">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_BD_UniqueRecruitment" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Partir com Black Drs." />Black Drs abre os olhos. Eles brilham como areia movida pelo vento.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Balas do Matrix" uniqueID="2" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_MATRIX_BULLETS">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="bd">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-BD_DRUMS" />
+          </LogicFilter>
+          <LogicResultAction list="bd">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="10" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="15" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-NIGHT" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_MATRIX_BULLETS">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Recolher a areia antes que os projéteis caiam." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Seguir viagem." />O tempo desacelera. Balas pairam no ar como gotas de chuva congeladas. Black Drs caminha entre elas como se nada estivesse acontecendo.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="EV_MATRIX_BULLETS">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-BD_ITEM_AMPULETA_TEMPO" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Continuar." />O tempo volta ao normal. Black Drs acena com a cabeça, satisfeito.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Deus dos Sonhos" uniqueID="3" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_DEUS_DOS_SONHOS">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="bd">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-BD_DRUMS" />
+          </LogicFilter>
+          <LogicResultAction list="bd">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="20" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="10" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-NIGHT" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_DEUS_DOS_SONHOS">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Aceitar o talismã de Morfeu." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Seguir viagem." />Uma figura etérea emerge da areia. Morfeu, o Deus dos Sonhos, olha para Black Drs com olhos que contêm universos inteiros.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="960" positionY="-30" width="350" height="660" image="EV_DEUS_DOS_SONHOS">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-BD_ITEM_COLAR_SONHOS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="3" targetID="4" fromX="1285" fromY="-580" name="Acordar." />O sonho se desfaz. Black Drs está acordado, mas seus olhos ainda brilham com o reino onírico.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+  <Adventure name="Hipnose Coletiva" uniqueID="4" allowOnce="true" typeGeneric="false" typePerGroupGeneric="true" typeInterrupt="false" typeExpedition="false" typeVillage="false" difficulty="0" nodeIdMax="4" joinIsForced="false" joinType="OnlyOwn" joinRange="SinglePosition">
+    <nodes xsi:type="NodeStarting" ID="1" positionX="40" positionY="-30" width="350" height="660" image="EV_HIPNOSE_COLETIVA">
+      <logic>
+        <FilterBlock>
+          <LogicFilter name="bd">
+            <scriptCallWithTag scriptName="FwT_ThisPlayerThisGroupCharacters" parameter="1" tag="SUBRACE-BD_DRUMS" />
+          </LogicFilter>
+          <LogicResultAction list="bd">
+            <scriptCallWithTag scriptName="FRA_ListSizeMoreEqualThan" parameter="1" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_TurnAboveOrEqualValue" parameter="15" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_Chance" parameter="12" />
+          </LogicResultAction>
+          <LogicResultAction>
+            <scriptCallWithTag scriptName="FRA_PlayersHaveSharedTag" parameter="1" tag="TAG-NIGHT" />
+          </LogicResultAction>
+        </FilterBlock>
+      </logic>
+      <outputs ownerID="1" targetID="2" fromX="365" fromY="-580" />
+    </nodes>
+    <nodes xsi:type="NodeAdventure" ID="2" positionX="500" positionY="-30" width="350" height="660" image="EV_HIPNOSE_COLETIVA">
+      <outputs ownerID="2" targetID="3" fromX="825" fromY="-580" name="Usar Hipnose Coletiva." />
+      <outputs ownerID="2" targetID="4" fromX="825" fromY="-660" name="Seguir viagem." />Black Drs espalha areia mágica no ar. Todos ao redor começam a bocejar, seus olhos ficando pesados.</nodes>
+    <nodes xsi:type="NodeAdventure" ID="3" positionX="1420" positionY="-30" width="350" height="660" image="EV_HIPNOSE_COLETIVA">
+      <logic>
+        <ModifierBlock>
+          <LogicModifiers>
+            <scriptCallWithTag scriptName="FMO_AddItems" parameter="1" tag="ITEM_CARGO-BD_ITEM_AREIA_SONHOS" />
+          </LogicModifiers>
+        </ModifierBlock>
+      </logic>
+      <outputs ownerID="3" targetID="4" name="Seguir viagem." fromX="1285" fromY="-580" />Os vigias baixam as armas, sonolentos. Black Drs recolhe a areia e conduz a expedição para longe.</nodes>
+    <nodes xsi:type="NodeAdventureEnd" ID="4" positionX="1420" positionY="-30" width="350" height="660" linkedEventUniqueID="0" />
+  </Adventure>
+</MODULE>

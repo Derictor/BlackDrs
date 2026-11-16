@@ -1,0 +1,94 @@
+<SKILLS_PACKS>
+  <SKILL_PACK-BD_CLASSE>
+    <RarityRange MinimumCount="0" MaximumCount="100" />
+    <GuarantedSkill Value="SKILL-BD_CLASSE" />
+    <GuarantedSkill Value="SKILL-BD_SONO" />
+    <GuarantedSkill Value="SKILL-BD_MATRIX" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_CLASSE>
+  <SKILL_PACK-BD_AVANCO>
+    <RarityRange MinimumCount="0" MaximumCount="70" />
+    <GuarantedSkill Value="SKILL-BD_SANDMAN" />
+    <GuarantedSkill Value="SKILL-BD_BELEZA" />
+    <GuarantedSkill Value="SKILL-BD_ENCANTAR" />
+    <GuarantedSkill Value="SKILL-BD_SABEDORIA" />
+    <GuarantedSkill Value="SKILL-BD_FE" />
+    <GuarantedSkill Value="SKILL-BD_DESTINO" />
+    <GuarantedSkill Value="SKILL-BD_HIPNOSE" />
+    <GuarantedSkill Value="SKILL-BD_ARIA" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="ClassBlackDrs" Requirement="OptionalType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_AVANCO>
+  <SKILL_PACK-BD_SANDMAN>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_SANDMAN" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_SANDMAN>
+  <SKILL_PACK-BD_MORPHEUS>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_MORPHEUS" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_MORPHEUS>
+  <SKILL_PACK-BD_HYPNOS>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_HYPNOS" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_HYPNOS>
+  <SKILL_PACK-BD_ONEIROS>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ONEIROS" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_ONEIROS>
+  <SKILL_PACK-BD_NYX>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_NYX" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_NYX>
+  <SKILL_PACK-BD_ERES>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ERES" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_ERES>
+  <SKILL_PACK-BD_PHANTOM>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_PHANTOM" />
+    <SkillGroupFilters>
+      <SkillGroupSingleFilter Name="YM_Golem" Requirement="NecessaryType" />
+    </SkillGroupFilters>
+  </SKILL_PACK-BD_PHANTOM>
+  <SKILL_PACK-BD_ITEM_AREIA_SONHOS>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ITEM_AREIA_SONHOS" />
+  </SKILL_PACK-BD_ITEM_AREIA_SONHOS>
+  <SKILL_PACK-BD_ITEM_MASCARA_SONO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ITEM_MASCARA_SONO" />
+  </SKILL_PACK-BD_ITEM_MASCARA_SONO>
+  <SKILL_PACK-BD_ITEM_PIPOCA_ONIRO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ITEM_PIPOCA_ONIRO" />
+  </SKILL_PACK-BD_ITEM_PIPOCA_ONIRO>
+  <SKILL_PACK-BD_ITEM_AMPULETA_TEMPO>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ITEM_AMPULETA_TEMPO" />
+  </SKILL_PACK-BD_ITEM_AMPULETA_TEMPO>
+  <SKILL_PACK-BD_ITEM_COLAR_SONHOS>
+    <RarityRange MinimumCount="0" MaximumCount="0" />
+    <GuarantedSkill Value="SKILL-BD_ITEM_COLAR_SONHOS" />
+  </SKILL_PACK-BD_ITEM_COLAR_SONHOS>
+</SKILLS_PACKS>

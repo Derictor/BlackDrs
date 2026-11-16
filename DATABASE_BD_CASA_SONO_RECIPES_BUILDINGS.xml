@@ -1,0 +1,19 @@
+<RECEIPTS_BUILDING>
+  <BUILD_REC-BD_CASA_SONO Durability="40">
+    <RecipeBase ResearchCost="3" ResChildForbid="FALSE">
+      <DescriptionInfo Name="Casa do Sono" Description="Um refúgio construído segundo Black Drs aumenta a sanidade máxima dos moradores." IconName="BuildingDwellingBedsWood" />
+      <CountedTag Tag="TAG-BD_CASA_SONO" Amount="1.0" />
+      <MaterialRow>
+        <Material ResourceCount="38">
+          <Resource Value="RES-WOOD" />
+        </Material>
+      </MaterialRow>
+      <MaterialRow>
+        <Material ResourceCount="31">
+          <Resource Value="RES-LEATHER" />
+        </Material>
+      </MaterialRow>
+    </RecipeBase>
+    <Skills Value="SKILL_PACK-BD_CASA_SONO" />
+  </BUILD_REC-BD_CASA_SONO>
+</RECEIPTS_BUILDING>
